@@ -12,10 +12,4 @@ class HomeController extends Controller
 
         return view('home', compact('isim'));
     }
-    public function indexTwo()
-    {
-        $isim = 'Murat';
-
-        return view('home', compact('isim'));
-    }
 }
