@@ -9,11 +9,11 @@ class PageController extends Controller
 {
     public function hakkimizda()
     {
-        $students = new Student();
-        $students->first_name = "bahattin";
-        $students->last_name = "kırış";
-        $students->city = "zonguldak";
-        $students->save();
+        $student = new Student();
+        $student->first_name = "Eralp";
+        $student->last_name = "Sarıbıyık";
+        $student->city = "Balıkesir";
+        $student->save();
 
         return view('pages.hakkimizda');
     }

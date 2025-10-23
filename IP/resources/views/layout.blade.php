@@ -201,10 +201,9 @@
             <a class="nav-item nav-link link-body-emphasis active" href="/">Ana Sayfa</a>
             <a class="nav-item nav-link link-body-emphasis" href="/hakkimizda">Hakkımızda</a>
             <a class="nav-item nav-link link-body-emphasis" href="/bolumlerimiz">Bölümlerimiz</a>
-            <a class="nav-item nav-link link-body-emphasis" href="/ogrencilerimiz">Öğrenci Kayıt</a>
             <a class="nav-item nav-link link-body-emphasis" href="/haberler">Haberler</a>
+            <a class="nav-item nav-link link-body-emphasis" href="/ogrencilerimiz">Öğrencilerimiz</a>
             <a class="nav-item nav-link link-body-emphasis" href="/bize-ulasin">Bize Ulaşın</a>
-            <a class="nav-item nav-link link-body-emphasis" href="/basvuru">Başvuru Formu</a>
         </nav>
     </div>
 </div>

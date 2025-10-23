@@ -15,7 +15,7 @@ return view('pages.basvuru-formu');
 
         $validated = $request->validate([
 
-           'ad' => 'required|string|max:20',
+            'ad' => 'required|string|max:20',
             'soyad' => 'required|string|max:20',
             'tc_kimlik' => 'required|numeric|digits:11|unique:users,tc_kimlik',
             'dogum_tarihi' => 'required|date|before_or_equal:' . now()->subYears(18)->format('Y-m-d'),
